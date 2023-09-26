@@ -1,0 +1,39 @@
+.footer {
+  display: flex;
+  align-items: center;
+  margin: -0.5rem -3.5rem;
+  position: relative;
+  margin-top: -7rem;
+}
+.f-content {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 8rem;
+  gap: 2rem;
+  color: white;
+}
+.f-content > :nth-child(1) {
+  font-style: italic;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0;
+}
+.f-icons {
+  display: flex;
+  gap: 2rem;
+  transform: scale(0.8);
+}
+
+@media screen and (max-width: 480px) {
+  .footer {
+    margin-bottom: 1.3rem;
+  }
+  .f-content {
+    margin-top: 4rem;
+    transform: scale(0.6);
+  }
+}

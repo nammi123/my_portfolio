@@ -1,0 +1,123 @@
+.contact-form {
+  /* padding: 0 3rem 0 3rem; */
+  display: flex;
+  flex-direction: column;
+  /* display: grid; */
+  /* grid-template-columns: 1fr 1fr; */
+  margin-top: 4rem;
+  /* scroll */
+  padding-top: 3rem;
+}
+/* Left */
+.c-title {
+  margin-bottom: 2rem;
+}
+.c-title > :nth-child(1) {
+  color: var(--black);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.c-title > :nth-child(2) {
+  color: var(--orange);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.c-detail {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-content: center;
+  /* align-items: flex-start; */
+  row-gap: 2rem;
+  column-gap: 2rem;
+  /* margin: auto; */
+}
+
+.awesome {
+  margin-top: 0;
+}
+/* .cd-left { */
+/*  */
+/* } */
+.cd-left > :nth-child(1) {
+  color: var(--black);
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.cd-card {
+  margin-top: -3rem;
+  transform: scale(0.9);
+  position: relative;
+}
+.cd-card > * {
+  position: absolute;
+  width: 100%;
+}
+
+/* Right */
+.c-right {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  position: relative;
+  flex: 1;
+}
+.c-right > p {
+  margin: 0;
+  color: var(--black);
+  font-style: italic;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.c-right > form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.c-right .user {
+  width: 20rem;
+  height: 1.5rem;
+  padding: 0.3em;
+  outline: none;
+  border: 2px solid var(--orange);
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+textarea {
+  height: 4rem !important;
+}
+.f-btn {
+  align-self: flex-start;
+  width: 5rem;
+}
+
+.c-blur1 {
+  top: 1rem;
+  left: 8rem;
+}
+
+@media screen and (max-width: 480px) {
+  .contact-form {
+    padding: 0;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 2.5rem;
+    /* height: 40rem; */
+  }
+  .c-right .user {
+    width: 16rem;
+  }
+  .cd-card {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    /* gap: 17rem; */
+  }
+  .cd-card > * {
+    position: static;
+  }
+}

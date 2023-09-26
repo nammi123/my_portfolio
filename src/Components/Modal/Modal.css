@@ -1,0 +1,120 @@
+.m-wraper {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  border: 1px solid var(--orange);
+  border-radius: 1rem;
+  column-gap: 0.5rem;
+  display: flex;
+  flex-flow: row nowrap;
+  position: relative;
+  background: white;
+  box-shadow: 0px 0px 25px var(--orange);
+}
+.m-wraper > * {
+  justify-self: flex-start;
+  padding: 2rem;
+  /* max-width: 50%; */
+}
+/* Left Side */
+.m-left {
+  max-width: 45%;
+  justify-self: start;
+  display: flex;
+  flex-flow: column wrap;
+  /* display: inline-block; */
+}
+/* .m-info {
+} */
+.m-info > :nth-child(1) {
+  font-size: 3rem;
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+  color: var(--black);
+  /* text-decoration: underline; */
+  font-weight: bolder;
+  background: transparent;
+  /* border-bottom: 1px solid white; */
+  /* box-shadow: 0px 1px 1px var(--gray); */
+}
+.m-info > :nth-child(2) {
+  font-size: 1.1rem;
+  text-align: justify;
+  font-weight: 500;
+  color: var(--gray);
+  word-break: break-word;
+  /* display: inline-block; */
+}
+/* Links */
+.m-links {
+  margin-bottom: 1.5rem;
+}
+.m-links > * {
+  margin-right: 2rem;
+  font-size: 1.1rem;
+  color: var(--black);
+}
+/* Tech Stack */
+.m-stack {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1rem;
+}
+.m-stack > * {
+  /* margin-right: 0.5rem; */
+  background: var(--orange);
+  padding: 0.3rem;
+  border-radius: 1rem;
+  color: white;
+}
+.m-date {
+  margin-bottom: 1rem;
+}
+.m-date > * {
+  color: var(--gray);
+  font-size: 1.5rem;
+}
+/* Right Side */
+.m-right {
+  max-width: 100%;
+  padding: 0rem;
+  /* border-left: 1px solid var(--black); */
+  justify-self: start;
+}
+/* Image */
+.m-right > img {
+  max-width: 100%;
+  max-height: 100%;
+  justify-self: start;
+}
+.btn-close {
+  color: rgb(236, 72, 72);
+  position: absolute;
+  top: -2.2rem;
+  left: -2.1rem;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+.btn-close > img {
+  transform: scale(0.6);
+}
+/* .btn-close:hover::after {
+  content: "Close";
+  font-size: 0.8rem;
+} */
+/* Responsive */
+@media screen and (max-width: 480px) {
+  .m-wraper {
+    width: 100%;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+  }
+  .m-left > * {
+    width: 90%;
+  }
+  .m-info > :nth-child(1) {
+    font-size: 2.4rem;
+  }
+}

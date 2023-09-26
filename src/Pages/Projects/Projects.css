@@ -1,0 +1,68 @@
+.p-wraper {
+  position: relative;
+  margin-top: 4rem;
+  /* height: 90vh; */
+  /* height: 70vh; */
+}
+
+.portfolio {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+}
+.learnMore {
+  opacity: 0.2;
+}
+/* heading */
+.portfolio span:nth-of-type(1) {
+  color: var(--black);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.portfolio span:nth-of-type(2) {
+  color: var(--orange);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* slider */
+.portfolio .swiper {
+  overflow: visible !important;
+}
+
+.portfolio-slider {
+  margin-top: 3rem;
+  width: 100%;
+}
+
+.portfolio-slider .swiper-slide {
+  width: 20rem;
+}
+.portfolio img {
+  width: 19rem;
+  filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
+  border-radius: 19px;
+}
+.portfolio img::after {
+  content: "Click To Know More";
+}
+/* Modal */
+.p-modal {
+  position: absolute;
+  z-index: 2;
+  top: 3rem;
+  transform: scale(0.9);
+}
+
+@media screen and (max-width: 480px) {
+  .p-modal {
+    transform: scale(1);
+    opacity: 1;
+    z-index: 2;
+  }
+  /* .portfolio { */
+  /* opacity: 0.2; */
+  /* } */
+}

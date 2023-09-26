@@ -1,0 +1,49 @@
+.NavMobile {
+  /* display: flex; */
+  position: fixed;
+  bottom: 0rem;
+  left: 0rem;
+  width: 100%;
+  background: white;
+  border: 1px solid white;
+  box-shadow: 10px 0px 15px var(--gray);
+  z-index: 11;
+}
+.NavMobile > ul {
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+  grid-gap: 0rem;
+  align-items: center;
+  list-style-type: none;
+  /* background: blue; */
+  margin: 0;
+  padding: 0;
+}
+.NavMobile > ul > li {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  list-style-type: none;
+  padding: 0.2rem;
+  margin: 0;
+  /* background: aliceblue; */
+}
+.title {
+  color: var(--gray);
+  margin: 0;
+  padding: 0;
+  font-size: 0.5rem;
+}
+
+.NavMobile > ul > li > a > button {
+  margin: 0;
+  /* padding: 0.5rem; */
+}
+@media screen and (min-width: 480px) {
+  .NavMobile {
+    display: none;
+  }
+}
