@@ -6,7 +6,7 @@ import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context/Context";
 import { motion } from "framer-motion";
-import Resume from "./Akshatha's_Resume.pdf";
+import Resume from "./Naminder Kumar Resume.pdf";
 
 const About = () => {
   // context
@@ -35,11 +35,9 @@ const About = () => {
         <span className="sub-title">
           Driven by a constant desire to learn, create and make an impact in the world of web development.
           <br></br>
-          Specialized in MERN stack. 
-          <br></br>
-          (MongoDB Express React Node).
+          Specialized in Front-End Developer. 
           <br />
-          Base In Bangalore, India
+          Based In Bhopal, India
         </span>
         <a
           href={Resume}

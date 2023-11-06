@@ -2,13 +2,14 @@ import React, { useContext } from "react";
 import "./Home.css";
 import Vector1 from "../../img/Vector1.png";
 import Vector2 from "../../img/Vector2.png";
-import boy from "../../img/fullimg.png";
+import boy from "../../img/nammi.png";
 import thumbup from "../../img/thumbup.png";
 import crown from "../../img/crown.png";
 import FloatinDiv from "../../Components/FloatingDiv/FloatingDiv";
 import Github from "../../img/github.png";
 import LinkedIn from "../../img/linkedin.png";
 import CodePen from "../../img/CodePen.png";
+import Instagram from "../../img/instagram.png"
 import { themeContext } from "../../Context/Context";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
@@ -26,8 +27,8 @@ const Home = () => {
       <div className="i-left">
         <div className="i-name">
           {/* yahan change hy darkmode ka */}
-          <span style={{ color: darkMode ? "white" : "" }}>Heyyy!</span>
-          <span> I Am Akshatha B</span>
+          <span style={{ color: darkMode ? "white" : "" }}>Hey! I Am</span>
+          <span>Naminder Kumar</span>
           <span>Web Developer</span>
         </div> 
         <Link to="Contact" smooth={true} spy={true}>
@@ -36,14 +37,14 @@ const Home = () => {
         {/* social icons */}
         <div className="i-icons">
           <a
-            href="https://github.com/Akshatha2023"
+            href="https://github.com/nammi123"
             target={"_blank"}
             rel="noreferrer"
           >
             <img src={Github} alt="" />
           </a>
           <a
-            href="https://www.linkedin.com/in/akshatha-b-31b730217/"
+            href="https://www.linkedin.com/in/naminder-kumar-5668bb191/"
             target={"_blank"}
             rel="noreferrer"
           >
@@ -57,13 +58,13 @@ const Home = () => {
         <img src={Vector1} alt="" />
         <img src={Vector2} alt="" />
         <div className="boy">
-          <img src={boy} alt="" sizes="32x32" />
+          <img src={boy} alt=""/>
         </div>
         {/* animation */}
 
         <motion.div
-          initial={{ top: "-4rem", left: "10rem" }}
-          whileInView={{ top: "-4rem", left: "1rem" }}
+          initial={{ top: "-4rem", left: "13rem" }}
+          whileInView={{ top: "-4rem", left: "-2rem" }}
           transition={transition}
           className="floating-div"
         >

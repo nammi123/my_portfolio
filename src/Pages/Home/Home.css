@@ -73,23 +73,15 @@
   left: -3rem;
 }
 .boy {
-  transform: scale(0.9);
-  top: -9rem;
-  left: 15%;
+  transform: scale();
+  top: -7rem;
+  left: 10%;
 }
 .i-right > :nth-child(3) {
   transform: scale(0.95);
   max-height: max-content;
 }
-/* .i-right > :nth-child(4) { */
-/* transform: scale(0.62); */
-/* top: -19%; */
-/* left: -24%; */
-/* border-radius: 50%; */
-/* padding: 0; */
-/* } */
 
-/* blur */
 .blur {
   position: absolute;
   width: 22rem;

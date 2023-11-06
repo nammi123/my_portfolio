@@ -1,14 +1,14 @@
 import React from "react";
 import Toggle from "../../Components/Tooggle/Toggle";
 import "./Navbar.css";
-import Resume from "./Akshatha's_Resume.pdf";
+import Resume from "./Naminder Kumar Resume.pdf";
 import { Link } from "react-scroll";
 const navbar = () => {
   return (
     <div className="n-wrapper" id="Navbar">
       {/* left */}
       <div className="n-left">
-        <div className="n-name">Akshatha B</div>
+        <div className="n-name">Naminder</div>
         <Toggle />
       </div>
       {/* right */}

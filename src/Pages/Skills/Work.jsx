@@ -8,10 +8,13 @@ import Javascript from "../../img/icons/JavaScript.svg";
 import ReduxIcon from "../../img/icons/Redux.svg";
 import MaterialUi from "../../img/icons/MaterialUI.svg";
 import BootStrap from "../../img/icons/Bootstrap5.svg";
+import SQl from "../../img/icons/SQl.png"
+import Java from "../../img/icons/java.png"
+import Figma from "../../img/icons/figma.png"
 //
 import NodeJs from "../../img/icons/Node.js.svg";
-import Express from "../../img/icons/Express.svg";
-import Mongo from "../../img/icons/MongoDB.svg";
+// import Express from "../../img/icons/Express.svg";
+// import Mongo from "../../img/icons/MongoDB.svg";
 import Git from "../../img/icons/GIT.svg";
 import GitHub from "../../img/icons/Github.svg";
 import Tailwind from "../../img/icons/tailwing.png";
@@ -71,8 +74,8 @@ const Skills = () => {
               className="w-mainCircle"
             >
               <div className="w-secCircle">
-                <img src={ReactIcon} alt="" />
-                <span>React</span>
+                <img src={Java} alt="" />
+                <span>Java</span>
               </div>
               <div className="w-secCircle">
                 <img src={CSS} alt="" />
@@ -100,8 +103,8 @@ const Skills = () => {
               </div>
             </motion.div>
             {/* background Circles */}
-            {/* <div className="w-backCircle blueCircle"></div>
-            <div className="w-backCircle yellowCircle"></div> */}
+            <div className="w-backCircle blueCircle"></div>
+            <div className="w-backCircle yellowCircle"></div>
           </div>
           {/* SECOND TOOL SHOWCASE */}
           <div className="w-right">
@@ -113,25 +116,25 @@ const Skills = () => {
               className="w-mainCircle"
             >
               <div className="w-secCircle">
-                <img src={Mongo} alt="" />
-                <span>MongoDB</span>
+                <img src={Figma} alt="" />
+                <span>Figma</span>
               </div>
               <div className="w-secCircle">
                 <img src={GitHub} alt="" />
                 <span>GitHub</span>
               </div>
               <div className="w-secCircle">
-                <img src={NodeJs} alt="" />
-                <span>Node</span>
+                <img src={ReactIcon} alt="" />
+                <span>React</span>
               </div>
               <div className="w-secCircle">
                 <img src={Npm} alt="" />
                 <span>NPM</span>
               </div>
               <div className="w-secCircle">
-                <img src={Express} alt="" />
-                <span>Express</span>
-              </div>{" "}
+                <img src={SQl} alt="" />
+                <span>SQl</span>
+              </div>
               <div className="w-secCircle">
                 <img src={Git} alt="" />
                 <span>Git</span>
@@ -142,8 +145,8 @@ const Skills = () => {
               </div>
             </motion.div>
             {/* background Circles */}
-            {/* <div className="w-backCircle blueCircle"></div>
-            <div className="w-backCircle yellowCircle"></div> */}
+            <div className="w-backCircle blueCircle"></div>
+            <div className="w-backCircle yellowCircle"></div>
           </div>
         </div>
       </div>

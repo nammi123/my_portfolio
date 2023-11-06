@@ -5,7 +5,7 @@ import Home from "@iconscout/react-unicons/icons/uil-home";
 import About from "@iconscout/react-unicons/icons/uil-user";
 import Contact from "@iconscout/react-unicons/icons/uil-envelope";
 import Project from "@iconscout/react-unicons/icons/uil-suitcase";
-import Resume from "./Akshatha's_Resume.pdf";
+import Resume from "./Naminder Kumar Resume.pdf";
 const NavMobile = () => {
   return (
     <>

@@ -10,11 +10,11 @@ const ContactInfo = [
       <Linkedin color="#0077B7" size={"2rem"} />,
     ],
     title: ["Gmail", "WhatsApp", "Linkedin"],
-    subtitle: ["akshatha1410@", "+91 9036482474", "Akshatha B"],
+    subtitle: ["naminderdahiya@", "+91 7909354544", "Naminder Kumar"],
     link: [
-      "mailto:akshatha1410@gmail.com",
-      "https://api.whatsapp.com/send?phone=9036482474",
-      "https://www.linkedin.com/in/akshatha-b-31b730217/",
+      "mailto:naminderdahiya2933@gmail.com",
+      "https://api.whatsapp.com/send?phone=7909354544",
+      "https://www.linkedin.com/in/naminder-kumar-5668bb191/",
     ],
   },
 ];
