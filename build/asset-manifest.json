@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.9fa6e5e7.css",
-    "main.js": "/static/js/main.6015f8da.js",
-    "static/media/Architect.png": "/static/media/Architect.3aae33c7cf26ef35f2b8.png",
-    "static/media/pet.png": "/static/media/pet.33b2f4b6bbcfde1c4cef.png",
-    "static/media/Todo.png": "/static/media/Todo.16401a7d39defe4fbf35.png",
-    "static/media/Kryptic.png": "/static/media/Kryptic.6a985d2b9c4087d5c8ea.png",
-    "static/media/shopz1Home.png": "/static/media/shopz1Home.5f1b1eae30e33fd1767c.png",
-    "static/media/Akshatha's_Resume.pdf": "/static/media/Akshatha's_Resume.bb34daff2c54a8d57e23.pdf",
+    "main.css": "/static/css/main.3deac249.css",
+    "main.js": "/static/js/main.efc46369.js",
+    "static/media/port.png": "/static/media/port.ec605a23e6824f5b2a09.png",
+    "static/media/casmart.png": "/static/media/casmart.133ec7949ce08e6d042a.png",
+    "static/media/lava.png": "/static/media/lava.324481289740450050a6.png",
+    "static/media/nammi.png": "/static/media/nammi.aef221728e066b2d8232.png",
+    "static/media/beerapp.png": "/static/media/beerapp.0d9cc80f2f73576d89af.png",
     "static/media/tailwing.png": "/static/media/tailwing.420346928dd9069afd06.png",
-    "static/media/fullimg.png": "/static/media/fullimg.77df267c68fa3cfce998.png",
+    "static/media/Naminder Kumar Resume.pdf": "/static/media/Naminder Kumar Resume.724bac507942f91477ad.pdf",
+    "static/media/gitfinder.png": "/static/media/gitfinder.718142fc4a5d46a842ba.png",
+    "static/media/password.png": "/static/media/password.d9b74ff0c1bf0ad79f8a.png",
     "static/media/thumbup.png": "/static/media/thumbup.e06790ba656f0397cbe5.png",
     "static/media/humble.png": "/static/media/humble.c8b32b53675e68978981.png",
     "static/media/heartemoji.png": "/static/media/heartemoji.26b1b6ed5e0e44083b28.png",
@@ -22,8 +23,6 @@
     "static/media/Node.js.svg": "/static/media/Node.js.615ffbea9529ca7047ed8a912bfd94b2.svg",
     "static/media/Redux.svg": "/static/media/Redux.0e4fb1c819ac4c060c92343147d4ccf7.svg",
     "static/media/Github.svg": "/static/media/Github.4e0d9b0cb0599dfccb7206e70c038b40.svg",
-    "static/media/MongoDB.svg": "/static/media/MongoDB.1aca075d5cce0819fea7ea0902d94ce4.svg",
-    "static/media/Express.svg": "/static/media/Express.b9a57e9c25d5912c3d42e809800d063d.svg",
     "static/media/Bootstrap5.svg": "/static/media/Bootstrap5.98585727bcfe0b1555649ec9bbab236c.svg",
     "static/media/JavaScript.svg": "/static/media/JavaScript.00f3e5cf8bcf4ae623b3835ca5791b15.svg",
     "static/media/GIT.svg": "/static/media/GIT.c60b7e5ae8ec2562f23fdddcab300026.svg",
@@ -31,11 +30,11 @@
     "static/media/CSS.svg": "/static/media/CSS.4e47c3122b8d2476a02f97dcfcb28640.svg",
     "static/media/HTML.svg": "/static/media/HTML.f318c8b1d5945fa9adc827ae94849cb1.svg",
     "static/media/MaterialUI.svg": "/static/media/MaterialUI.fd510ed8518b192069590b04e2e6348a.svg",
-    "main.9fa6e5e7.css.map": "/static/css/main.9fa6e5e7.css.map",
-    "main.6015f8da.js.map": "/static/js/main.6015f8da.js.map"
+    "main.3deac249.css.map": "/static/css/main.3deac249.css.map",
+    "main.efc46369.js.map": "/static/js/main.efc46369.js.map"
   },
   "entrypoints": [
-    "static/css/main.9fa6e5e7.css",
-    "static/js/main.6015f8da.js"
+    "static/css/main.3deac249.css",
+    "static/js/main.efc46369.js"
   ]
 }
